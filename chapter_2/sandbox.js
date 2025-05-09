@@ -15,6 +15,7 @@ var score = 75; // old way, prefer not to use
 console.log(score);
 */
 
+/*
 // strings
 console.log('hello, world');
 
@@ -43,5 +44,19 @@ console.log(result, fullName)
 
 let index = email.indexOf('@');
 console.log(index);
+*/
+
+/*
+// common string methods
+let email = 'mario@thenetninja.co.uk';
+
+// let result = email.lastIndexOf('n');
+// let result = email.slice(2, 5); // (start, end) exclusive
+// let result = email.substr(4, 10); // (start, length) inclusive
+// let result = email.replace('m', 'w');
+let result = email.replace('n', 'w') // only the first n
+
+console.log(result);
+*/
 
 
